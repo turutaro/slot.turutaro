@@ -40,9 +40,9 @@
 
         getRandomImage() {
             const images = [
-                'img/seven.png',
-                'img/bell.png',
-                'img/cherry.png',
+                'seven.png',
+                'bell.png',
+                'cherry.png',
             ];
             return images[Math.floor(Math.random() * images.length)];
         }
