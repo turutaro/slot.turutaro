@@ -40,9 +40,9 @@
 
         getRandomImage() {
             const images = [
-                'seven.png',
-                'bell.png',
-                'cherry.png',
+                'slot.turutaro.github.io/seven.png',
+                'slot.turutaro.github.io/bell.png',
+                'slot.turutaro.github.io/cherry.png',
             ];
             return images[Math.floor(Math.random() * images.length)];
         }
