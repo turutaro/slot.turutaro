@@ -73,15 +73,15 @@
 
     function checkSrc(panel) {
         const getCoins = document.getElementById('get-coins');
-        if (panel.img.src === 'file:///Users/tsuruokatakayoshi/Documents/dotinstall/slot/img/seven.png') {
+        if (panel.img.src === 'https://turutaro.github.io/slot.turutaro.github.io/img/seven.png') {
             coins.textContent = nowCoins += 10;
             getCoins.textContent = 10;
         }
-        if (panel.img.src === 'file:///Users/tsuruokatakayoshi/Documents/dotinstall/slot/img/bell.png') {
+        if (panel.img.src === 'https://turutaro.github.io/slot.turutaro.github.io/img/bell.png') {
             coins.textContent = nowCoins += 5;
             getCoins.textContent = 5;
         }
-        if (panel.img.src === 'file:///Users/tsuruokatakayoshi/Documents/dotinstall/slot/img/cherry.png') {
+        if (panel.img.src === 'https://turutaro.github.io/slot.turutaro.github.io/img/cherry.png') {
             coins.textContent = nowCoins += 3;
             getCoins.textContent = 3;
         } else {
