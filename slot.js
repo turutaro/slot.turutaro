@@ -86,6 +86,7 @@
             getCoins.textContent = 3;
         } else {
             console.log(panel.img.src);
+        }
     }
 
     function checkResult() {
