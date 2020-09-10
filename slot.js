@@ -140,7 +140,7 @@
     const clear = document.getElementById('clear');
 
     let i = 0;
-    let nowCoins = 3;
+    let nowCoins = 30;
     const coins = document.getElementById('now-coins');
     coins.textContent = nowCoins;
     
