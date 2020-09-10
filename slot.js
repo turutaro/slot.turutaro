@@ -84,7 +84,8 @@
         if (panel.img.src === 'file:///Users/tsuruokatakayoshi/Documents/dotinstall/slot/img/cherry.png') {
             coins.textContent = nowCoins += 3;
             getCoins.textContent = 3;
-        }      
+        } else {
+            console.log(panel.img.src);
     }
 
     function checkResult() {
